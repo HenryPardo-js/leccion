@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" const="text/html;charset=UTF-8" />
+    <link href="http://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <title>Leccion chat</title>
+  </head>
+
+  <body>
+      <section>
+        <div id="change_username">
+          <input id="username" type="text" placeholder="Nombre del usuario" />
+          
+        </div>
+      </section>
+
+      <!-- <section>
+        <div id="change_username2">
+          <label  for=""><font color="white">Conectados</font></label>
+          <section id="chatroom2">
+            <section id="feedback"> </section>
+          </section>
+        </div>
+      </section> -->
+
+      <section id="chatroom">
+        <section id="feedback"> </section>
+      </section>
+
+      <section id="input_zone"> 
+        <input id="message" class="vertical-align" type="text" placeholder="Escribe un mensaje" />
+        <button id="send_message" class="vertical-align" type="button">Enviar</button>
+      </section>
+      
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="cliente.js"></script>
+    <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ 
+    
+    <script type="text/javascript">
+      function mesnaje(){
+        alert("ha seleccionado el parrafo numero");
+      }
+    </script>
+  </body>
+</html>
